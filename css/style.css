@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(/img/bg-2.png);
+    margin: 0 auto;
+    width: 1140px;
+}
+header{
+    width: 1140px;
+    background-color:orangered;
+    overflow: hidden;
+    padding:10px;
+    padding-right: 0px;
+}
+nav{
+ padding: 10px 0px;
+}
+a.logo{
+    float: left;
+    padding-right: 30px;
+}
+
+.menus{
+    float: left;
+}
+.menus li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.menus li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.operaciones{
+    float: right;
+}
+.operaciones li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.operaciones li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/* secciones*/
+#cuerpo_centrado{
+    margin: 20px 0px;
+}
+.secciones{
+    float: left;
+    width: 800px;
+    background-color: ivory;
+    margin-bottom: 10px;
+}
+.secciones article{
+      float: left;
+      margin: 10px;
+      width: 380px;      
+    }
+.secciones article img{
+    width: 100%;
+}
+.secciones article h2{
+ margin: 10px 0px;
+}
+.secciones article button{
+    margin: 20px 0px;
+    border-style: none;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: beige;
+    padding: 10px;
+
+}
+
+/* adicionales*/
+aside.adicional{
+    width: 320px;
+    float: right;
+}
+h4{
+    background-color: ivory;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+/*tutoriales*/
+section.tutoriales{
+    margin-bottom: 40px;
+}
+section.tutoriales article{
+    background-color:ivory;
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+section.tutoriales article img{
+    float: left;
+    padding: 10px;
+}
+section.tutoriales article h3{
+    font-weight: normal;
+    padding: 20px;
+}
+/*publicidad*/
+.publicidad_img{
+    padding: 10px;
+    background-color: ivory;
+}
+.publicidad_img img:first-child{
+    margin-bottom: 15px ;
+}
+
+
+
+
+/*--------------------Login-----------------------*/
+
+.cuerpo_centrado{
+    width: 1140px ;
+}
+.ingreso{
+    width: 350px;
+    margin: 40px auto;
+}
+ h1{
+    text-align: center;
+    margin:20px 0px;
+    color: rgb(63, 61, 61);
+}
+input.cajaLogin{
+    width:100%;
+    margin-bottom:20px;
+    padding:5px;
+}
+#verificacion{
+    text-align: right;
+}
+#verificacion input{
+    margin-right: 5px;
+}
+.boton_login{
+    padding:10px 30px 10px 30px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(93, 124, 216);
+    color: white;
+}
+/*-----------------------------registarse------------------------------*/
+.registrarse{
+    width: 350px;
+    margin: 0px auto;
+}
+.cajaRegistro{
+    width: 100%;
+}
+.cadaCajaRegistro{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.cajaSeleccion{
+    width: 50%;
+}
+.subcajasTexts{
+    width: 100%;
+    padding: 5px;
+}
+.cadaCajaRegistro p{
+    color: brown;
+}
+.subtexto{
+    color: rgb(63, 61, 61);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 70%;
+    resize: none;
+}
+.botones button{
+    width: 40%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(93, 124, 216);
+    color: floralwhite;
+    font-weight: bold;
+}
+input{
+    margin: 0px 4px ;
+}

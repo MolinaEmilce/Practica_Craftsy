@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <a href="./home.html" class="logo"><img src="./img/logo.png" alt="logo" class=""></a>  
+        <nav>
+            <ul class="menus">
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Computadoras</a></li>
+            </ul>
+            <ul class="operaciones">
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cuerpo_centrado">
+        <form action="" class="registrarse">
+            <h1>Registrate</h1>
+
+            <label for="nombre" class="cadaCajaRegistro">Nombre <br>
+            <input type="text"  name="email" class="subcajasTexts" id="nombre" placeholder="Nombre">
+                <p>Obligatorio</p>
+            </label>
+
+            <label for="email" class="cadaCajaRegistro">Email <br>
+            <input type="email" name="email"class="subcajasTexts"  id="email" placeholder="Email">
+                <p>Obligatorio</p>
+            </label>
+
+            <label for="password" class="cadaCajaRegistro">Contraseña <br>
+                <input type="password" name="contraseña" class="subcajasTexts" id="password" placeholder="Contraseña">
+                <p>Obligatorio</p>
+            </label>
+
+            <label for="pais" class="cadaCajaRegistro"><span class="subtexto"> Pais de Nacimiento</span><br>
+                <select name="paisNacimiento" id="pais" class="cajaSeleccion">
+                    <option value="arg">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="ch">Chile</option>
+                    <option value="ven">Venezuela</option>
+                </select>
+                <p>Obligatorio</p>
+            </label>
+
+            <label class="cadaCajaRegistro"><span class="subtexto"> Género</span><br>
+                <input type="radio" name="genero" id="m" value="masculino"><label for="m">Masculino</label>
+                <input type="radio" name="genero" id="f" value="femenino"><label for="f">Femenino</label>
+                <input type="radio" name="genero" id="indefinido" value="nodefinido"><label for="indefinido">Prefiero no decirlo</label>
+            </label>
+
+            <label class="cadaCajaRegistro"><span class="subtexto">Hobbies</span>  <br>
+                <input type="checkbox" name="hobbie" id="hobbie1" value="futbol"><label for="hobbie1">Futbol</label>
+                <input type="checkbox" name="hobbie" id="hobbie2" value="guitarra"><label for="hobbie2">Guitarra</label>
+                <input type="checkbox" name="hobbie" id="hobbie3" value="correr"><label for="hobbie3">Correr</label>
+            </label> 
+
+            <label for="comentar" class="cadaCajaRegistro"><span class="subtexto"> Dejanos tus comentarios</span><br>
+                <textarea name="comentarios" id="comentar" cols="30" rows="10"></textarea>
+            </label>
+
+            <label class="cadaCajaRegistro" for="">
+                <input type="checkbox" name="terminos" >Acepto terminos y condiciones.
+            </label>
+            
+            <div class="cadaCajaRegistro botones"> 
+                <button>Registrarme</button>
+                <button>Cancelar</button>
+            </div>
+          
+        </form>
+    </main>
+</body>
+</html>
